@@ -1,4 +1,5 @@
 # MSKCTF2020
+[Новости](news)
 #### More-less [PPC]
 Подключаемся по `nc` к заданию и видим, что от нас требуют угадать число при помощи бинарного поиска, реализацию которого можно написать на python.
 
@@ -247,6 +248,8 @@ DEBUG: the js /flag.txt with content '' is blocked by CSP
 Быть может, flag.js? Ведь изначально к странице подключался javascript файл. Ответ:
 
 ![burp request](https://github.com/WATyag/MSKCTF2020/blob/master/Incident/burp.jpg)
+
+<a name="News"></a> 
 
 #### Truth News [WEB/OSINT]
 
