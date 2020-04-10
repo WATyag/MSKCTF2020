@@ -1,0 +1,1 @@
+MSKCTF{truth_begins_in_lies}
