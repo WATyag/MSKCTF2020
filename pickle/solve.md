@@ -39,6 +39,7 @@ print(base64.b64encode(shellcode))
 ```
 
 В результате должен прийти такой запрос:
+<br/><br/>
 ![alt text](https://github.com/WATyag/MSKCTF2020/blob/master/pickle/requestbin.jpg "Request example")
-
+<br/><br/>
 #### Флаг: MSKCTF{pickle_cant_be_easily_secured} 
