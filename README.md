@@ -285,7 +285,7 @@ DEBUG: the js /flag.txt with content '' is blocked by CSP
  Заходим в админку, замечаем установленный плагин WP File Manager. Меняем в его настройках "Public Root Path" на "/", находим флаг.
 </details>
 <details>
-    <summary><b>Dive into the cool story</b></summary>
+    <summary><b>Dive into the cool story [FOREN/STEG]</b></summary>
     <br>
 В таске ```You`ve got mail``` мы вместе с флагом получаем ссылку на google disk.
 
