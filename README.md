@@ -1,4 +1,5 @@
 # MSKCTF2020
+![](https://sun1-91.userapi.com/D9by1Coj-CT6hXyTEAe4YtdzOYMMGBmd72Rv_Q/IuaWVh4wIYY.jpg)
 <details>
     <summary><b>More-less [PPC]</b></summary>
     <br>
@@ -368,6 +369,7 @@ Content-Transfer-Encoding: 8bit
 <details>
     <summary><b>MSKCTF++ [RE]</b></summary>
     <br>
+    
 По описанию языка `MSKCTF++` стало понятно, что это brainfuck c измененными символами.
 
 Сделаем замену на более привычные для этого языка символы.
