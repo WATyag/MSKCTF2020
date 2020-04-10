@@ -1,3 +1,5 @@
+## Happy new RTFM
+
 На главной странице таска нас встречает обратный отсчет до нового года. Попробуем разобраться как он работает. 
 
 Файл utils.js отправляет запрос /get_date.php, где через  переменную fmt указывает формат времени. get_date.php возвращает текущее время в заданном формате, после чего расчитывается оставшееся время до нового года и запускается таймер.
@@ -47,20 +49,6 @@ Mandatory arguments to long options are mandatory for short options too.
 
 Замечаем опицию -f , умеющую читать дату из файла. Это выглядит как то, что нам нужно. Отправим --file=/etc/flag.txt :
 
-```
-HTTP/1.1 200 OK
-Server: nginx/1.14.0 (Ubuntu)
-Date: Fri, 10 Apr 2020 12:52:06 GMT
-Content-Type: text/html; charset=UTF-8
-Content-Length: 75
-Connection: close
-X-Powered-By: PHP/7.4.0
-Vary: Accept-Encoding
+![burp request](https://github.com/WATyag/MSKCTF2020/blob/master/Happy%20new%20RTFM/burp.jpg)
 
-date: invalid date 'MSKCTF{1tS_uS3ful_t0_R3AD_A_MANu4l_fR0m_T1m3_t0_tIME}'
-```
-
-Флаг:
-	MSKCTF{1tS_uS3ful_t0_R3AD_A_MANu4l_fR0m_T1m3_t0_tIME}
-	
-
+#### Флаг: MSKCTF{1tS_uS3ful_t0_R3AD_A_MANu4l_fR0m_T1m3_t0_tIME}
