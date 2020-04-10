@@ -266,6 +266,7 @@ DEBUG: the js /flag.txt with content '' is blocked by CSP
 <details> 
     <summary><b>Truth News [WEB/OSINT]</b></summary>
     <br>
+    
 *До хинта*
 
 Тупим, тыкаемся во все, что попадется на глаза, толком не понимаем, что нужно делать.
