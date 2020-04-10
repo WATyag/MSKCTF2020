@@ -60,7 +60,6 @@ Vary: Accept-Encoding
 date: invalid date 'MSKCTF{1tS_uS3ful_t0_R3AD_A_MANu4l_fR0m_T1m3_t0_tIME}'
 ```
 
-Флаг:
-	MSKCTF{1tS_uS3ful_t0_R3AD_A_MANu4l_fR0m_T1m3_t0_tIME}
+#### Флаг: MSKCTF{1tS_uS3ful_t0_R3AD_A_MANu4l_fR0m_T1m3_t0_tIME}
 	
 
