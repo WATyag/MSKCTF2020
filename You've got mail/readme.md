@@ -53,4 +53,4 @@ Content-Transfer-Encoding: 8bit
 
 Вводим пароль `истина` и получаем файл с флагом.
 
-Флаг: MSKCTF{the_truth_i$_0uT_tHeRe_haha}
+#### Флаг: MSKCTF{the_truth_i$_0uT_tHeRe_haha}
