@@ -28,21 +28,11 @@ Content-Security-Policy: script-src 'self' 'unsafe-inline' https://code.jquery.c
 DEBUG: the js /flag.txt with content '' is blocked by CSP
 ```
 
-Быть может, 'flag.js'?(ведь изначально к странице подключался javascript файл). Ответ:
+Быть может, flag.js? Ведь изначально к странице подключался javascript файл. Ответ:
 
-```
-HTTP/1.1 200 OK
-Server: nginx/1.14.0 (Ubuntu)
-Date: Fri, 10 Apr 2020 12:23:44 GMT
-Content-Type: text/plain
-Content-Length: 93
-Connection: close
-Content-Security-Policy: script-src 'self' 'unsafe-inline' https://code.jquery.com/ https://cdnjs.cloudflare.com/ https://maxcdn.bootstrapcdn.com/; report-uri /csp-reports
+![burp request](https://github.com/WATyag/MSKCTF2020/blob/master/Incident/burp.jpg)
 
-DEBUG: the js /flag.js with content 'MSKCTF{CSP_IS_COOK1EZ_CR3AM_POPT4RT}' is blocked by CSP
-```
 
-Флаг:
-	MSKCTF{CSP_IS_COOK1EZ_CR3AM_POPT4RT}
+#### Флаг: MSKCTF{CSP_IS_COOK1EZ_CR3AM_POPT4RT}
 
 
