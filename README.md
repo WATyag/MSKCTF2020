@@ -346,7 +346,8 @@ Content-Transfer-Encoding: 8bit
 <details>
     <summary><b>Dive into the cool story [FOREN/STEG]</b></summary>
     <br>
-В таске ```You`ve got mail``` мы вместе с флагом получаем ссылку на google disk.
+    
+В таске `You've got mail` мы вместе с флагом получаем ссылку на google disk.
 
 Качаем оттуда архив, в котором находится папка `Мои документы`.
 
