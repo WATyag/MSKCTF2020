@@ -47,19 +47,6 @@ Mandatory arguments to long options are mandatory for short options too.
 
 Замечаем опицию -f , умеющую читать дату из файла. Это выглядит как то, что нам нужно. Отправим --file=/etc/flag.txt :
 
-```
-HTTP/1.1 200 OK
-Server: nginx/1.14.0 (Ubuntu)
-Date: Fri, 10 Apr 2020 12:52:06 GMT
-Content-Type: text/html; charset=UTF-8
-Content-Length: 75
-Connection: close
-X-Powered-By: PHP/7.4.0
-Vary: Accept-Encoding
-
-date: invalid date 'MSKCTF{1tS_uS3ful_t0_R3AD_A_MANu4l_fR0m_T1m3_t0_tIME}'
-```
+![burp request](https://github.com/WATyag/MSKCTF2020/blob/master/Happy%20new%20RTFM/burp.jpg)
 
 #### Флаг: MSKCTF{1tS_uS3ful_t0_R3AD_A_MANu4l_fR0m_T1m3_t0_tIME}
-	
-
