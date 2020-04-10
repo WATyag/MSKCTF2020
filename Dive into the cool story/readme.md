@@ -14,4 +14,4 @@
 
 Изменим расширение на `.zip` и посмотрим, что же внутри, а там нас ждал файл `flag.txt`.
 
-Флаг: `MSKCTF{psst_wanna_d1ve_int0_c001_st0ry}`
+#### Флаг: MSKCTF{psst_wanna_d1ve_int0_c001_st0ry}
