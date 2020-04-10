@@ -284,3 +284,22 @@ DEBUG: the js /flag.txt with content '' is blocked by CSP
 
  Заходим в админку, замечаем установленный плагин WP File Manager. Меняем в его настройках "Public Root Path" на "/", находим флаг.
 </details>
+<details>
+    <summary><b>Dive into the cool story</b></summary>
+    <br>
+В таске ```You`ve got mail``` мы вместе с флагом получаем ссылку на google disk.
+
+Качаем оттуда архив, в котором находится папка `Мои документы`.
+
+В ней находится множество фотографий с пингвинами и несколько word файлов.
+
+Протыкав все файлы, я заметил, что для файла `TWIMC.docx` предпросмотр не работает, хотя с другими .docx файлами все в порядке.
+
+![Предпросмотр не работает](https://github.com/WATyag/MSKCTF2020/blob/master/Dive%20into%20the%20cool%20story/TWIMC.png)
+
+Открыв это файл в текстовом редакторе, можно увидеть сигнатуру `PK`, а это значит, что перед нами архив.
+
+Изменим расширение на `.zip` и посмотрим, что же внутри, а там нас ждал файл `flag.txt`.
+
+#### Флаг: MSKCTF{psst_wanna_d1ve_int0_c001_st0ry}
+</details>
