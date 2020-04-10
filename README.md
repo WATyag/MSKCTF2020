@@ -1,6 +1,6 @@
 # MSKCTF2020
 <details>
-    <summary>#### More-less [PPC]</summary>
+    <summary> <b>More-less [PPC]</b></summary>
     <br>
 Подключаемся по `nc` к заданию и видим, что от нас требуют угадать число при помощи бинарного поиска, реализацию которого можно написать на python.
 </details>
