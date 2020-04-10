@@ -87,8 +87,9 @@ print(base64.b64encode(shellcode))
 
 ![Request example](https://github.com/WATyag/MSKCTF2020/blob/master/pickle/requestbin.jpg)
 </details>
-#### Beta release [WEB]
-
+<details> 
+    <summary><b>Beta release [WEB]</b></summary>
+    <br>
 Таск представляет из себя сервис, целью которого видимо является троллинг участников, так как при попытке получить абсолютно любой флаг мы получаем один и тот же ответ - "Такой флаг еще не подвезли :(". Что же, попробуем разобраться и найти настоящий флаг, утерев нос обидчикам!
 
 Первичный анализ обширных возможностей таска не дал нам никаких интересных результатов, поэтому попробуем поискать "поглубже", используя dirsearch.
@@ -170,8 +171,10 @@ index cf4d6c8..1a127ae 100644
 +
 ...
 ```
-#### Happy new RTFM [WEB]
-
+</details>
+<details> 
+    <summary><b>Happy new RTFM [WEB]</b></summary>
+    <br>
 На главной странице таска нас встречает обратный отсчет до нового года. Попробуем разобраться как он работает. 
 
 Файл utils.js отправляет запрос /get_date.php, где через  переменную fmt указывает формат времени. get_date.php возвращает текущее время в заданном формате, после чего расчитывается оставшееся время до нового года и запускается таймер.
@@ -222,9 +225,10 @@ Mandatory arguments to long options are mandatory for short options too.
 Замечаем опицию -f , умеющую читать дату из файла. Это выглядит как то, что нам нужно. Отправим --file=/etc/flag.txt :
 
 ![burp request](https://github.com/WATyag/MSKCTF2020/blob/master/Happy%20new%20RTFM/burp.jpg)
-
-#### Incident [WEB]
-
+</details>
+<details> 
+    <summary><b>Incident [WEB]</b></summary>
+    <br>
 Исследуя таск замечаем, что подключеный к странице not-a-flag.js, который блокируется правилами csp. Также делается запрос на /csp-reports, где помимо прочего передается uri заблокированного файла. Ответ на этот запрос таков:
 
 ```
@@ -258,9 +262,10 @@ DEBUG: the js /flag.txt with content '' is blocked by CSP
 Быть может, flag.js? Ведь изначально к странице подключался javascript файл. Ответ:
 
 ![burp request](https://github.com/WATyag/MSKCTF2020/blob/master/Incident/burp.jpg)
-
-#### Truth News [WEB/OSINT]
-
+</details>
+<details> 
+    <summary><b>Truth News [WEB/OSINT]</b></summary>
+    <br>
 *До хинта*
 
 Тупим, тыкаемся во все, что попадется на глаза, толком не понимаем, что нужно делать.
@@ -278,3 +283,4 @@ DEBUG: the js /flag.txt with content '' is blocked by CSP
  Учитывая, что таск написан с использованием wordpress, нетрудно догадаться, что перед нами логин и пароль от админки. Ищем ее через dirsearch или гуглим дефолтный роут(его также можно найти на /?page_id=2) - "/wp-admin".
 
  Заходим в админку, замечаем установленный плагин WP File Manager. Меняем в его настройках "Public Root Path" на "/", находим флаг.
+</details>
