@@ -1,4 +1,4 @@
-#### Keycap [MISC]
+## Keycap [MISC]
 Изучив `dump.pcap` с помощью wireshark, понимаем, что перед нами находится usb capture. По запросу "ctf usb capture" находим скрипт https://ctf-wiki.github.io/ctf-wiki/misc/traffic/protocols/USB/ и запускаем: `python ./script.py dump.pcap`.
 Вывод:
 
