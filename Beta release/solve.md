@@ -80,5 +80,4 @@ index cf4d6c8..1a127ae 100644
 ...
 ```
 
-Флаг:
-	MSKCTF{l34v1g_g1t_f0ld3r_1s_t00_b4d_id34_l0l}
+#### Флаг: MSKCTF{l34v1g_g1t_f0ld3r_1s_t00_b4d_id34_l0l}
